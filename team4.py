@@ -17,15 +17,12 @@ def move(my_history, their_history, my_score, their_score):
     Make my move.
     Returns 'c' or 'b'. 
     '''
-    if len(my_history) <3:
+     if len(my_history) == 0:
+        return 'c'
+    if 'b' in their_history:
         return 'b'
-    if their_history[-1] == 'c' and their_history[-2] == 'c' and their_history[-3] == 'c':
-        return 'b'
-        if their_history[-1] == 'b':
-            return 'c'
-    if their_history[-1] == 'b' and their_history[-2] == 'b' and their_history[-3] == 'b':
-        return 'b'
-    
+    else:
+        return 'c'
             
             
     
