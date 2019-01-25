@@ -7,7 +7,7 @@
 ####
 
 team_name = 'Aman Priyadarshis Team' # Only 10 chars displayed.
-strategy_name = 'Gives a b in the begening and cheaks to see if there are colluding or betraying and gives answers to each'
+strategy_name = 'Betray every time'
 strategy_description = 'How does this strategy decide?'
     
 def move(my_history, their_history, my_score, their_score):
